@@ -2,6 +2,12 @@
 
 AI/ML student project — predicting agricultural drought in Slavonia two months ahead using Copernicus satellite data.
 
+## About
+
+Agricultural drought is a recurring problem in eastern Croatia, affecting crop yields and water resource management. Early warning — knowing a drought is coming before it fully develops — gives farmers and local authorities time to react.
+
+This project builds a machine learning model trained on 22 years of historical data (2003–2024) that uses monthly satellite and climate observations (soil moisture, temperature, precipitation, evaporation) to predict whether drought conditions will occur two months later. Three classifiers are compared — Random Forest, XGBoost, and KNN — with the best performer selected based on F1-score. The model is designed so that in principle, feeding in the latest monthly observations would produce a 2-month ahead forecast, though real-time data integration is not implemented in this version.
+
 ---
 
 ## How to Run
